@@ -1,0 +1,6 @@
+Hands up all of you who have an electronic book reader! Almost everyone! I have one too. Yet, I like to play chess. I like to analyze my own games with others. And I'd like to analyze other's chess games (like ones of William Steinitz).
+I've tired to sit at that old and rusty blinking screen my PC or laptop.
+I know LaTeX a little and I thought "Why not?".
+So here it is - a simple application to convert pgn (now many games in one file) to LaTeX and a script that will allow you to automate convertation and running pdflatex to retreive a pdf file that you will be able to read on electronic book reader. The genereated pdf-file will be looking just like that chessboard you have. Hope, you'll like it.
+
+Use pgn2pdf.sh script to do the thing. Compile a couple of binaries with Makefile in order script to work properly ;-)
