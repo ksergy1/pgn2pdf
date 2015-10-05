@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $# -le 1 ]; then
+if [ $# -lt 1 ]; then
     echo "usage:    $0 <input.pgn> [start-num end-num]"
     echo "usage: or $0 <input.pgn> [end-num] // start_num = 0"
     echo "usage: or $0 <input.pgn> // start_num = 0, end_num = INT_MAX"
